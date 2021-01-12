@@ -3,7 +3,7 @@
 baseurl = "http://example.org/"
 languageCode = "en-us"
 title = "John Doe Resume"
-theme = "hugo-orbit-theme"
+theme = "custom-hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 # Do not build files for websites. Need them? Set to false
@@ -32,7 +32,7 @@ disable404 = true
     [params.profile]
         name = "John Doe"
         tagline = "Full Stack Developer"
-        avatar = "profile.png"
+        avatar = "speakerimg.png"
 
     # Contact section
     [params.contact]
