@@ -3,7 +3,7 @@
 baseurl = "http://example.org/"
 languageCode = "en-us"
 title = "John Doe Resume"
-theme = "hugo-orbit-theme"
+theme = "custom-hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 # Do not build files for websites. Need them? Set to false
