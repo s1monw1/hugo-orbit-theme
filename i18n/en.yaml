@@ -8,6 +8,8 @@
   translation: Languages
 - id: projects
   translation: Tools and Languages
+- id: publications
+  translation: Publications
 - id: skills
   translation: Skills & Proficiency
 - id: summary

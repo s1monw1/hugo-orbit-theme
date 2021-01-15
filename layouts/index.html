@@ -27,6 +27,9 @@
 	{{ partial "skills.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.publications.enable }}
+	{{ partial "publications.html" . }}
+    {{ end }}
 	</div><!--//main-body-->
     </div>
 
