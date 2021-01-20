@@ -1,0 +1,8 @@
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">{{ i18n "acknowledgements" }}</h2>
+                <ul class="list-unstyled interests-list">
+				{{ range .Site.Params.acknowledgements.list }}
+                    <li class="{{ .class }}"><i class="fa {{ .icon }}"></i><a target="_blank" href="{{ .url }}"> {{ .acknowledgement }}</a></li>
+				{{ end }}
+                </ul>
+            </div><!--//acknowledgements-->

@@ -22,4 +22,8 @@
 		{{ partial "interests.html" . }}
 		{{ end }}
 
+		{{ if .Site.Params.acknowledgements.enable }}
+		{{ partial "acknowledgements.html" . }}
+		{{ end }}
+
         </div><!--//sidebar-wrapper-->

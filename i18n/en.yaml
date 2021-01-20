@@ -4,6 +4,8 @@
   translation: Experiences
 - id: interests
   translation: Interests
+- id: acknowledgements
+  translation: Acknowledgements
 - id: language
   translation: Languages
 - id: projects
